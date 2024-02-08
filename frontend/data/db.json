@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "1tr5",
+      "user": {
+        "id": "huy4",
+        "username": "SmartUser"
+      },
+      "message": "Hello, Fake Twitter!",
+      "comments": [
+        {
+          "id": 1,
+          "user": {
+            "id": "hhde",
+            "username": "CoolUser"
+          },
+          "comment": "Hello, Fake User!"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "huy4",
+      "username": "SmartUser"
+    },
+    {
+      "id": "hhde",
+      "username": "CoolUser"
+    }
+  ]
+}
