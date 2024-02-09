@@ -1,0 +1,43 @@
+@import "./sass/normalizer";
+
+$color1: #ff90bb;
+$color2: #ffc0da;
+$color3: #fdf7df;
+$color4: #8acdd6;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $color1;
+  background-color: $color3;
+}
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: $color2;
+}
+
+.header {
+  background-color: $color4;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+#postFeed {
+  background-color: $color3;
+  min-width: 200px;
+  height: 50px;
+}
+
+.menu {
+  ul {
+    display: flex;
+    list-style: none;
+  }
+}
